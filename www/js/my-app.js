@@ -4,7 +4,7 @@ window.reloadPageInJs = false;
 window.ftracer = false;
 
 window.debug = false;
-window.startUrl = 'http://xn--c1acbe2apap.xn--90ais/ajax/mobil_app/';
+window.startUrl = 'https://mlife.by/ajax/tvr_app/';
 
 window.deviceId = '';
 
