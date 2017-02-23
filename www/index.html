@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <title>МЕЖГОРОД.БЕЛ</title>
+    <title>MLife.Скидки.</title>
     <!-- Path to Framework7 Library CSS-->
     <link rel="stylesheet" href="css/framework7.ios.min.css">
     <link rel="stylesheet" href="css/framework7.ios.colors.min.css">
@@ -19,16 +19,26 @@
     <!-- Panels overlay-->
     <div class="panel-overlay"></div>
     <!-- Left panel with reveal effect-->
-    <div class="panel panel-left panel-reveal" style="border-right:1px solid #000000;">
-<div class="center" style="text-align:center;border-bottom:1px solid #ffffff;background:#ffffff;"><img src="img/header_logo2.png" style="height:39px;width:auto;"></div>
+    <div class="panel panel-left panel-reveal" style="background:#000000;border-right:1px solid #000000;">
+<div class="center" style="text-align:left;border-bottom:1px solid #ffffff;background:#ef0c12;color:#ffffff;line-height:42px;font-size:20px;"><img src="img/header_logo2.png" style="height:34px;width:auto;float:left;margin:4px;margin-right:10px;margin-left:15px;"><span>Беларусь24</span></div>
 <div id="menuBlock" class="content-block" style="margin:0;padding:0;">
 <div class="list-block color-pink" id="menuBlock" style="margin-top:0;">
 	<ul>
 		<li>
-		<a id="pMain" class="close-panel color-pink item-link item-content" href="link.html?page=main">
+		<a class="closep color-pink item-link item-content" href="link.html?page=main">
 			<div class="item-inner">
 				<div class="item-title">
 					Главная
+				</div>
+				<div class="item-after"></div>
+			</div>
+		</a>
+		</li>
+		<li>
+		<a id="exit" class="closep color-pink item-link item-content " href="#">
+			<div class="item-inner">
+				<div class="item-title">
+					Выйти из приложения
 				</div>
 				<div class="item-after"></div>
 			</div>
@@ -39,21 +49,21 @@
 </div>
     </div>
     <!-- Right panel with cover effect-->
-    <div class="panel panel-right panel-cover" style=";border-left:1px solid #000000;">
+    <div class="panel panel-right panel-cover" style="border-left:1px solid #000000;">
     </div>
     <!-- Views-->
     <div class="views">
       <!-- Your main view, should have "view-main" class-->
       <div class="view view-main">
         <!-- Top Navbar-->
-        <div class="navbar layout-dark">
+        <div class="navbar layout-white" style="background:#2c7404">
 	    <div class="navbar-inner">
 		<div class="left">
 		
 		</div>
-		<div class="center"><span>МЕЖГОРОД.БЕЛ</span></div>
+		<div class="center" style="color:#ffffff;"><img src="img/header_logo2.png" style="height:34px;width:auto;margin-right:10px;"><span>Беларусь24</span></div>
 		<div class="right">
-		    <a href="#" class="link icon-only open-panel" data-panel="left"> <i class="icon icon-bars color-orange"></i></a>
+		    <a href="#" class="link icon-only open-panel" data-panel="left"> <i class="icon icon-bars color-white"></i></a>
 		</div>
 	    </div>
 		</div>
@@ -63,20 +73,17 @@
           <div data-page="index" id="pageCnt" class="page">
             <!-- Scrollable page content-->
             <div class="page-content">
-<p style="text-align:center;"><br></p>
+
             </div>
           </div>
         </div>
-        <!-- Bottom Toolbar-->
-        <div class="toolbar bg-orange">
-          <div class="toolbar-inner"><a href="#" class="link color-white"></a></div>
-        </div>   
+          
       </div>
     </div>
     <!-- Path to Framework7 Library JS-->
 <script type="text/javascript" src="cordova.js"></script>
     <script type="text/javascript" src="js/framework7.min.js"></script>
     <!-- Path to your app js-->
-	<script type="text/javascript" src="js/my-app.js"></script>
+	<script type="text/javascript" src="js/my-app.js?2"></script>
   </body>
 </html>
